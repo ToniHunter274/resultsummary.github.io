@@ -1,0 +1,143 @@
+@font-face{
+	font-family: 'Hanken';
+	src: url(fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 736px;
+	height: 512px;
+	display: flex;
+	margin: 200px auto;
+	font-family: 'Hanken'; 
+}
+
+.container_one{
+	width: 368px;
+	height: 512px;
+	border-radius: 32px;
+	background:linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+	color: #fff;
+	padding: 30px;
+}
+
+#title{
+	text-align: center;
+	font-size: 24px;
+	line-height: 31px;
+	color: #CAC9FF;
+	font-family: 'Hanken';
+}
+
+#score{
+	display: inline-block;
+	border: none;
+	width: 200px;
+	height: 200px;
+	border-radius: 180px;
+	text-align: center;
+	margin: 35px;
+	padding-top: 40px;
+	background:linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+}
+
+#num{
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#den{
+	color: #CAC9FF;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.container_two{
+	padding: 30px;
+}
+
+#sum{
+	display: inline-block;
+	width: 104px;
+	height: 31px;
+	font-size: 24px;
+	line-height: 31px;
+	color: #303B59;
+	margin: 20px;
+}
+
+.attr{
+	width: 288px;
+	height: 56px;
+	margin: 10px;
+	border-radius: 12px;
+}
+
+.icons{
+	margin: 12px;
+}
+
+.spec{
+	position: relative;
+	top: -15px;
+}
+
+.a_score{
+	position: relative;
+	left: 100px;
+	top: -10px;
+	color: #000080;
+}
+
+#r_style{
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+	color: #FF5555;
+}
+
+#m_style{
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;;
+	color: #FFB21E;
+
+}
+
+#v_style{
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;;
+	color: #00BB8F;
+}
+
+#vi_style{
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;;
+	color: #1125D6;
+}
+
+.mark{
+	font-weight: bold;
+}
+
+button{
+	width: 280px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 20px;
+	border-radius: 32px;
+	background-color: #23395d;
+	border: none;
+	color: #fff;
+}
